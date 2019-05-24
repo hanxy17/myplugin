@@ -1,0 +1,18 @@
+name: myplugin
+properties:
+  - name: TEST_VARA
+    type: string
+    required: true
+
+  - name: TEST_VARB
+    type: string
+    required: false
+
+  - name: TEST_VARC
+    type: string
+    required: false
+
+
+run: |
+  echo "HHH" > test.apk
+  set > /tmp/mypluginset.txt
